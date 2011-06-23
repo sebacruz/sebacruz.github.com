@@ -30,10 +30,10 @@
 		<header>
 			<h1>Google Maps</h1>
 		</header>
-		<div id="search">
+		<form id="search">
 			<input id="input" type="text" />
 			<input id="submit" type="submit" value="Buscar" />
-		</div>
+		</form>
 		<section id="wrap">
 			<div id="map"></div>
 		</section>
@@ -67,7 +67,9 @@
 			// Sets default center
 			map.setCenter(center);
 			
-			$('#submit').click(function(){
+			$('#search').submit(function(e){
+				e.preventDefault();
+				
 				var address = input.val();
 				if (address.length == 0)
 					return false;
