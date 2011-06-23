@@ -45,11 +45,9 @@
 					}),
 					
 				// Geocoder instance
-				geocoder = new google.maps.Geocoder(),
-				
-				// Google bounds instance
-				bounds = new google.maps.LatLngBounds();
+				geocoder = new google.maps.Geocoder();
 			
+			// Buscamos una dirección
 			geocoder.geocode({'address': 'Italia 1440, Rosario, Argentina'}, function(results, status){
 				if (status == google.maps.GeocoderStatus.OK) {
 					
