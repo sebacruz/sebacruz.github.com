@@ -436,7 +436,7 @@ muted: #aaa
 body {
     background:white;
     color:#666;
-    font-family:'bitstream vera sans mono',consolas,monaco,monospace;
+    font-family:'bitstream vera sans mono',consolas,monospace;
     padding:24px;/*16*1.5*/
     max-width:700px;
 }
