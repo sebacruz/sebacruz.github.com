@@ -487,8 +487,16 @@ h6 {
     font-weight:700;
 }
 
+h1 {
+    text-transform:uppercase;
+}
+
 a {
     text-decoration:none;
+}
+
+dt {
+    font-weight:700;
 }
 
 dd {
@@ -498,8 +506,7 @@ dd {
 }
 
 .header,
-.about,
-.projects {
+.section {
     margin-bottom:72px;
 }
 
@@ -516,6 +523,15 @@ dd {
     display:none;
 }
 
+.jobs h2 {
+    margin-bottom:0;
+}
+
+.jobs h2 + p {
+    color:#999;
+    margin-top:0;
+}
+
 @media (min-width: 768px) {
     body {
         padding:48px;
@@ -525,5 +541,43 @@ dd {
 @media (min-width: 992px) {
     body {
         padding:72px;
+    }
+}
+
+@media print {
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size:14px;
+        line-height:21px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol,
+    dl,
+    table,
+    form,
+    blockquote {
+        margin:21px 0;
+    }
+
+    .header,
+    .section {
+        margin-bottom:42px;
+    }
+
+    .header h1 {
+        font-size:16px;
     }
 }
