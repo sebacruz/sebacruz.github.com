@@ -500,7 +500,6 @@ dt {
 }
 
 dd {
-    color:#999;
     margin-bottom:12px;
     margin-left:0;
 }
@@ -545,6 +544,10 @@ dd {
 }
 
 @media print {
+    body {
+        padding:0;
+    }
+
     body,
     h1,
     h2,
@@ -552,8 +555,8 @@ dd {
     h4,
     h5,
     h6 {
-        font-size:14px;
-        line-height:21px;
+        font-size:12px;
+        line-height:18px;
     }
 
     h1,
@@ -569,15 +572,15 @@ dd {
     table,
     form,
     blockquote {
-        margin:21px 0;
+        margin:18px 0;
     }
 
     .header,
     .section {
-        margin-bottom:42px;
+        margin-bottom:36px;
     }
 
     .header h1 {
-        font-size:16px;
+        font-size:14px;
     }
 }
