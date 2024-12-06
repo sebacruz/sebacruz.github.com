@@ -1,0 +1,138 @@
+name: Jesús Sebastián Cruz
+title: Full Stack Development
+
+summary: |
+  Desarrollador web Full Stack con más de 15 años de experiencia en el desarrollo de aplicaciones web robustas y escalables. Especializado en tecnologías modernas como React, Next.js, NestJS, Laravel y WordPress, con un enfoque estratégico en la arquitectura de sistemas y la optimización de procesos de desarrollo. Con una sólida trayectoria en la mentoría y liderazgo de equipos, seleccionando las tecnologías más adecuadas para maximizar la eficiencia y el éxito en proyectos de alto impacto en entornos dinámicos y exigentes.
+
+contact:
+  title: Información general
+  data:
+    - label: Ubicación
+      value: Buenos Aires, Argentina
+    - label: Email
+      value: cruzjesussebastian@gmail.com
+    - label: Teléfono
+      value: +54 9 11 2567-6328
+    - label: GitHub
+      value: https://github.com/sebacruz
+    - label: LinkedIn
+      value: https://linkedin.com/in/sebacruz
+
+experience:
+  title: Experiencia
+  data:
+    - role: Full Stack Developer
+      company: Social Snack
+      period: "2009 - 2019"
+      responsibilities:
+        - Developed and maintained web applications using Laravel and WordPress, tailoring each solution to client needs.
+        - Implemented interactive interfaces with React, improving user experience and optimizing engagement on platforms with over 100,000 active users.
+        - Managed Unix servers to ensure stability and availability for development and production environments.
+        - Standardized development processes, improving code quality and team efficiency.
+        - Mentored junior and mid-level developers, supporting their integration of modern technologies into real-world projects.
+
+    - role: Lead Full Stack Developer
+      company: Chispa Lab
+      period: "2019 - 2023"
+      responsibilities:
+        - Led the development of web applications with Next.js, ensuring seamless integration of REST APIs in scalable systems.
+        - Designed backend architectures with NestJS, optimizing authentication and third-party service integrations.
+        - Defined agile processes and used Docker and Kubernetes to ensure consistent and rapid deployments.
+        - Supervised experienced developers, guiding them in implementing advanced technical solutions.
+        - Provided technical mentorship, promoting best practices and helping the team solve complex technical challenges.
+
+skills:
+  title: Skills
+  data:
+    - name: Frontend
+      items:
+        - HTML
+        - CSS
+        - JavaScript
+        - React
+        - Next.js
+    - name: Backend
+      items:
+        - Node.js
+        - NestJS
+        - Laravel
+        - PHP
+    - name: Bases de Datos
+      items:
+        - MySQL
+        - PostgreSQL
+    - name: DevOps
+      items:
+        - Docker
+        - Kubernetes
+        - AWS
+        - CI/CD
+    - name: Otros
+      items:
+        - Git
+        - Administración de sistemas Unix
+        - Memcached
+        - Varnish
+        - Nginx
+        - REST APIs
+        - Web3
+
+projects:
+  title: Proyectos Destacados
+  data:
+    - name: ponty.app
+      url: https://chispalab.com/projects/ponty
+      technologies: [NestJS, Next.js, AWS, S3, Docker]
+      description: |
+        Encargado del diseño y desarrollo de la arquitectura backend de
+        una plataforma de gestión de eventos. Implementé microservicios
+        utilizando NestJS para manejar autenticación con Auth0 y pagos
+        con Stripe, garantizando una integración fluida y segura.
+        Utilicé Docker para la contenedorización y AWS S3 para el
+        almacenamiento de archivos, asegurando que la infraestructura
+        fuera escalable y robusta, capaz de soportar un crecimiento
+        continuo de usuarios. El proyecto logró una implementación
+        exitosa, ofreciendo una experiencia de usuario rápida y
+        confiable.
+
+    - name: fitchin.gg
+      url: https://chispalab.com/projects/fitchin
+      technologies: [MySQL, NestJS, Next.js, Kubernetes]
+      description: |
+        Responsable del desarrollo del backend para la sección de
+        Comunidades de una plataforma de gaming. Utilicé NestJS para
+        implementar APIs REST, integrando servicios de autenticación
+        basados en Web3 para garantizar la seguridad y escalabilidad del
+        sistema. El sistema resultó en una plataforma estable y
+        altamente escalable, con capacidad para manejar picos de
+        actividad sin comprometer el rendimiento.
+
+    - name: Super Experiencias Santander Río
+      technologies: [MySQL, Laravel, React, Docker, Nginx, Memcached, Varnish]
+      description: |
+        Encargado del desarrollo de una red social interna para
+        empleados de Santander Río en Argentina. Implementé la
+        plataforma con Laravel y MySQL, permitiendo a los empleados
+        calificar y compartir experiencias de trabajo. Configuré
+        servidores con Nginx y optimicé el rendimiento con Memcached y
+        Varnish, logrando manejar alto tráfico para 150,000 usuarios en
+        Argentina y 200,000 en España.
+
+    - name: socialsnack.com
+      technologies: [WordPress, Nginx, Bootstrap]
+      description: |
+        Encargado del desarrollo de un sitio web corporativo
+        completamente administrable con WordPress, diseñado para
+        reflejar la identidad de la empresa y facilitar la gestión de
+        contenido. La plataforma ofrece actualizaciones dinámicas a
+        través de un panel de administración totalmente personalizado.
+
+    - name: La Editorial Común
+      url: https://web.archive.org/web/20160710083741/http://laeditorialcomun.com/
+      technologies: [WordPress, WooCommerce, Varnish, Memcached]
+      description: |
+        Responsable de la maquetación del diseño y la integración con
+        WordPress y WooCommerce para el blog y tienda de Ricardo
+        Liniers. Configuré los servidores y optimicé el rendimiento
+        utilizando Varnish y Memcached, asegurando una experiencia de
+        usuario fluida en un entorno de alto tráfico.
