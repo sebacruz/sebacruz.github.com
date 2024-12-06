@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inline-definitions {
+  dt {
+    @apply float-left;
+    @apply mr-2;
+
+    margin-bottom: 0.5em;
+    margin-top: 0;
+
+    &::after {
+      content: ":";
+    }
+  }
+
+  dd {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    padding-inline-start: 0;
+  }
+}
