@@ -2,12 +2,13 @@ import { parse } from "yaml";
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
+import { ContactData, Data, ExperienceData, ProjectData } from "@/types/data";
 
-async function getData() {
+async function getData(): Promise<Data> {
   const filePath = path.join(process.cwd(), "src/config.yml");
   const fileContent = fs.readFileSync(filePath, "utf8");
 
-  return await parse(fileContent);
+  return await parse(fileContent) as Data;
 }
 
 export default async function Home() {
@@ -31,7 +32,7 @@ export default async function Home() {
 
             <dl className="inline-definitions">
               {data.contact.data &&
-                data.contact.data.map(({ label, value }) => (
+                data.contact.data.map(({ label, value }: ContactData) => (
                   <>
                     <dt>{label}</dt>
                     <dd>{value}</dd>
@@ -44,7 +45,7 @@ export default async function Home() {
             <h1>{data.experience.title}</h1>
 
             {data.experience.data &&
-              data.experience.data.map((job) => (
+              data.experience.data.map((job: ExperienceData) => (
                 <article key={job.company} className="mb-8 prose-headings:normal-case prose-headings:mb-0 prose-lead:mt-0">
                   <header>
                     <h1>{job.role}</h1>
@@ -68,7 +69,7 @@ export default async function Home() {
             <h1>{data.projects.title}</h1>
 
             {data.projects.data &&
-              data.projects.data.map((project, index) => (
+              data.projects.data.map((project: ProjectData, index) => (
                 <article key={index} className="mb-8 prose-headings:normal-case prose-headings:mb-0 prose-lead:mt-0">
                   <h1>
                     {project.url ? (
