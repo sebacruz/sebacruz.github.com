@@ -2,16 +2,16 @@ name: Jesús Sebastián Cruz
 title: Full Stack Development
 
 summary: |
-  Desarrollador web Full Stack con más de 15 años de experiencia en el desarrollo de aplicaciones web robustas y escalables. Especializado en tecnologías modernas como React, Next.js, NestJS, Laravel y WordPress, con un enfoque estratégico en la arquitectura de sistemas y la optimización de procesos de desarrollo. Con una sólida trayectoria en la mentoría y liderazgo de equipos, seleccionando las tecnologías más adecuadas para maximizar la eficiencia y el éxito en proyectos de alto impacto en entornos dinámicos y exigentes.
+  Full Stack Web Developer with over 15 years of experience developing robust and scalable web applications. Specialized in modern technologies such as React, Next.js, NestJS, Laravel, and WordPress, with a strategic focus on system architecture and development process optimization. Proven track record in mentoring and leading teams, selecting the most suitable technologies to maximize efficiency and success in high-impact projects within dynamic and demanding environments.
 
 contact:
-  title: Información general
+  title: General Information
   data:
-    - label: Ubicación
+    - label: Location
       value: Buenos Aires, Argentina
     - label: Email
       value: cruzjesussebastian@gmail.com
-    - label: Teléfono
+    - label: Phone
       value: +54 9 11 2567-6328
     - label: GitHub
       value: https://github.com/sebacruz
@@ -19,27 +19,40 @@ contact:
       value: https://linkedin.com/in/sebacruz
 
 experience:
-  title: Experiencia
+  title: Experience
   data:
     - role: Full Stack Developer
       company: Social Snack
       period: "2009 - 2019"
       responsibilities:
-        - Developed and maintained web applications using Laravel and WordPress, tailoring each solution to client needs.
-        - Implemented interactive interfaces with React, improving user experience and optimizing engagement on platforms with over 100,000 active users.
-        - Managed Unix servers to ensure stability and availability for development and production environments.
-        - Standardized development processes, improving code quality and team efficiency.
-        - Mentored junior and mid-level developers, supporting their integration of modern technologies into real-world projects.
+        - Responsible for developing and maintaining web applications
+          using Laravel and WordPress, tailoring each solution to the
+          client’s needs.
+        - Implemented interactive interfaces with Bootstrap and React,
+          improving user experience and optimizing engagement on
+          platforms with over 100,000 active users.
+        - Managed Unix servers, ensuring the stability and availability
+          of development and production environments.
+        - Standardized development processes, improving code quality
+          and operational efficiency across the team.
+        - Mentored junior and mid-level developers, supporting their
+          integration of modern technologies into real-world projects.
 
-    - role: Lead Full Stack Developer
+    - role: Lead Developer
       company: Chispa Lab
       period: "2019 - 2023"
       responsibilities:
-        - Led the development of web applications with Next.js, ensuring seamless integration of REST APIs in scalable systems.
-        - Designed backend architectures with NestJS, optimizing authentication and third-party service integrations.
-        - Defined agile processes and used Docker and Kubernetes to ensure consistent and rapid deployments.
-        - Supervised experienced developers, guiding them in implementing advanced technical solutions.
-        - Provided technical mentorship, promoting best practices and helping the team solve complex technical challenges.
+        - Led the development of web applications using Next.js,
+          ensuring seamless integration of REST APIs in scalable
+          systems.
+        - Designed backend architectures with NestJS, optimizing
+          authentication and third-party service integrations.
+        - Defined agile processes and utilized Docker and Kubernetes to
+          ensure consistent and rapid deployments.
+        - Supervised experienced developers, guiding the implementation
+          of advanced technical solutions.
+        - Provided technical mentorship, promoting best practices and
+          helping the team resolve complex technical challenges.
 
 skills:
   title: Skills
@@ -57,7 +70,7 @@ skills:
         - NestJS
         - Laravel
         - PHP
-    - name: Bases de Datos
+    - name: Databases
       items:
         - MySQL
         - PostgreSQL
@@ -67,10 +80,10 @@ skills:
         - Kubernetes
         - AWS
         - CI/CD
-    - name: Otros
+    - name: Others
       items:
         - Git
-        - Administración de sistemas Unix
+        - Unix Systems Administration
         - Memcached
         - Varnish
         - Nginx
@@ -78,61 +91,57 @@ skills:
         - Web3
 
 projects:
-  title: Proyectos Destacados
+  title: Featured Projects
   data:
     - name: ponty.app
       url: https://chispalab.com/projects/ponty
       technologies: [NestJS, Next.js, AWS, S3, Docker]
       description: |
-        Encargado del diseño y desarrollo de la arquitectura backend de
-        una plataforma de gestión de eventos. Implementé microservicios
-        utilizando NestJS para manejar autenticación con Auth0 y pagos
-        con Stripe, garantizando una integración fluida y segura.
-        Utilicé Docker para la contenedorización y AWS S3 para el
-        almacenamiento de archivos, asegurando que la infraestructura
-        fuera escalable y robusta, capaz de soportar un crecimiento
-        continuo de usuarios. El proyecto logró una implementación
-        exitosa, ofreciendo una experiencia de usuario rápida y
-        confiable.
+        Responsible for the design and development of the backend
+        architecture for an event management platform. Implemented
+        microservices using NestJS to handle authentication with Auth0
+        and payments with Stripe, ensuring a smooth and secure
+        integration. Utilized Docker for containerization and AWS S3
+        for file storage, ensuring the infrastructure was scalable and
+        robust, capable of supporting continuous user growth. The
+        project achieved a successful implementation, offering a fast
+        and reliable user experience.
 
     - name: fitchin.gg
       url: https://chispalab.com/projects/fitchin
       technologies: [MySQL, NestJS, Next.js, Kubernetes]
       description: |
-        Responsable del desarrollo del backend para la sección de
-        Comunidades de una plataforma de gaming. Utilicé NestJS para
-        implementar APIs REST, integrando servicios de autenticación
-        basados en Web3 para garantizar la seguridad y escalabilidad del
-        sistema. El sistema resultó en una plataforma estable y
-        altamente escalable, con capacidad para manejar picos de
-        actividad sin comprometer el rendimiento.
+        Responsible for developing the backend for the Communities
+        section of a gaming platform. Used NestJS to implement REST
+        APIs, integrating Web3-based authentication services to ensure
+        security and scalability. The system resulted in a stable and
+        highly scalable platform, capable of handling activity peaks
+        without compromising performance.
 
     - name: Super Experiencias Santander Río
       technologies: [MySQL, Laravel, React, Docker, Nginx, Memcached, Varnish]
       description: |
-        Encargado del desarrollo de una red social interna para
-        empleados de Santander Río en Argentina. Implementé la
-        plataforma con Laravel y MySQL, permitiendo a los empleados
-        calificar y compartir experiencias de trabajo. Configuré
-        servidores con Nginx y optimicé el rendimiento con Memcached y
-        Varnish, logrando manejar alto tráfico para 150,000 usuarios en
-        Argentina y 200,000 en España.
+        Developed an internal social network for Santander Río
+        employees in Argentina. Built the platform using Laravel and
+        MySQL, allowing employees to rate and share work experiences.
+        Configured servers with Nginx and optimized performance with
+        Memcached and Varnish, handling high traffic for 150,000 users
+        in Argentina and 200,000 in Spain.
 
     - name: socialsnack.com
       technologies: [WordPress, Nginx, Bootstrap]
       description: |
-        Encargado del desarrollo de un sitio web corporativo
-        completamente administrable con WordPress, diseñado para
-        reflejar la identidad de la empresa y facilitar la gestión de
-        contenido. La plataforma ofrece actualizaciones dinámicas a
-        través de un panel de administración totalmente personalizado.
+        Developed a fully manageable corporate website with WordPress,
+        designed to reflect the company's identity and facilitate
+        content management. The platform enables dynamic updates
+        through a fully customized administration panel.
 
     - name: La Editorial Común
       url: https://web.archive.org/web/20160710083741/http://laeditorialcomun.com/
       technologies: [WordPress, WooCommerce, Varnish, Memcached]
       description: |
-        Responsable de la maquetación del diseño y la integración con
-        WordPress y WooCommerce para el blog y tienda de Ricardo
-        Liniers. Configuré los servidores y optimicé el rendimiento
-        utilizando Varnish y Memcached, asegurando una experiencia de
-        usuario fluida en un entorno de alto tráfico.
+        Responsible for the frontend implementation and integration with
+        WordPress and WooCommerce for the store and blog of one of the
+        biggests argentinian caricaturists. Configured servers and
+        optimized performance using Varnish and Memcached, ensuring a
+        smooth user experience in a high-traffic environment.
