@@ -25,21 +25,39 @@ experience:
       company: Social Snack
       period: "2009 - 2019"
       responsibilities:
-        - Developed and maintained web applications using Laravel and WordPress, tailoring each solution to client needs.
-        - Implemented interactive interfaces with React, improving user experience and optimizing engagement on platforms with over 100,000 active users.
-        - Managed Unix servers to ensure stability and availability for development and production environments.
-        - Standardized development processes, improving code quality and team efficiency.
-        - Mentored junior and mid-level developers, supporting their integration of modern technologies into real-world projects.
+        - Encargado del desarrollo y mantenimiento de aplicaciones web
+          utilizando Laravel y WordPress, adaptando cada solución a las
+          necesidades del cliente.
+        - Responsable de la implementación de interfaces interactivas con
+          React, mejorando la experiencia de usuario y optimizando la
+          interacción en plataformas con más de 100,000 usuarios activos.
+        - Encargado de la administración de servidores Unix, asegurando
+          la estabilidad y disponibilidad de los entornos de desarrollo y
+          producción.
+        - Responsable de la estandarización de procesos de desarrollo,
+          mejorando la calidad del código y la eficiencia operativa del
+          equipo.
+        - Encargado de la mentoría a desarrolladores junior y de nivel
+          medio, apoyándolos en la integración de tecnologías modernas en
+          proyectos reales.
 
-    - role: Lead Full Stack Developer
+    - role: Lead Developer
       company: Chispa Lab
       period: "2019 - 2023"
       responsibilities:
-        - Led the development of web applications with Next.js, ensuring seamless integration of REST APIs in scalable systems.
-        - Designed backend architectures with NestJS, optimizing authentication and third-party service integrations.
-        - Defined agile processes and used Docker and Kubernetes to ensure consistent and rapid deployments.
-        - Supervised experienced developers, guiding them in implementing advanced technical solutions.
-        - Provided technical mentorship, promoting best practices and helping the team solve complex technical challenges.
+        - Responsable de liderar el desarrollo de aplicaciones web con
+          Next.js, asegurando la correcta integración de APIs REST en
+          sistemas escalables.
+        - Encargado del diseño de arquitecturas backend con NestJS,
+          optimizando la integración de autenticación y servicios de
+          terceros.
+        - Responsable de definir procesos ágiles y utilizar Docker y
+          Kubernetes para garantizar despliegues consistentes y rápidos.
+        - Encargado de supervisar a desarrolladores experimentados,
+          guiando en la implementación de soluciones técnicas avanzadas.
+        - Responsable de proporcionar mentoría técnica, promoviendo
+          buenas prácticas y ayudando al equipo a resolver desafíos
+          técnicos complejos.
 
 skills:
   title: Skills
