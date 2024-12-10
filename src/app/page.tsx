@@ -15,19 +15,37 @@ export default async function Home() {
   const data = await getData();
 
   return (
-    <main className="p-10 container max-w-5xl prose prose-slate prose-invert prose-sky prose-headings:uppercase prose-headings:text-base prose-headings:leading-7 prose-lead:text-base">
-      <header className="mb-16">
+    <main className="
+      container
+      max-w-5xl
+      p-10
+
+      prose
+      prose-zinc
+
+      prose-headings:uppercase
+      prose-headings:text-base
+      prose-headings:leading-7
+      prose-lead:text-base
+
+      dark:prose-invert
+
+      print:p-0
+      print:leading-normal
+      print:text-xs
+    ">
+      <header className="mb-16 print:mb-8">
         <h1 className="mb-0">{data.name}</h1>
         <p className="m-0 lead">{data.title}</p>
       </header>
 
-      <div className="mb-16">
+      <div className="mb-16 print:mb-10">
         <div dangerouslySetInnerHTML={{ __html: marked(data.summary) }} />
       </div>
 
-      <div className="grid sm:grid-cols-3 gap-16">
+      <div className="grid sm:grid-cols-3 gap-16 print:mb-8">
         <div className="sm:col-span-2">
-          <section className="mb-16">
+          <section className="mb-16 print:mb-8">
             <h1>{data.contact.title}</h1>
 
             <dl className="inline-definitions">
@@ -41,15 +59,15 @@ export default async function Home() {
             </dl>
           </section>
 
-          <section className="mb-16">
+          <section className="mb-16 print:mb-8">
             <h1>{data.experience.title}</h1>
 
             {data.experience.data &&
               data.experience.data.map((job: ExperienceData) => (
                 <article key={job.company} className="mb-8 prose-headings:normal-case prose-headings:mb-0 prose-lead:mt-0">
                   <header>
-                    <h1>{job.role}</h1>
-                    <p className="lead">
+                    <h1 className="print:text-xs">{job.role}</h1>
+                    <p className="lead print:text-xs">
                       {job.company} ({job.period})
                     </p>
                   </header>
@@ -65,21 +83,21 @@ export default async function Home() {
               ))}
           </section>
 
-          <section className="mb-16">
+          <section className="mb-16 print:mb-8">
             <h1>{data.projects.title}</h1>
 
             {data.projects.data &&
               data.projects.data.map((project: ProjectData, index) => (
                 <article key={index} className="mb-8 prose-headings:normal-case prose-headings:mb-0 prose-lead:mt-0">
-                  <h1>
+                  <h1 className="print:text-xs">
                     {project.url ? (
-                      <a href={project.url}>{project.name}</a>
+                      <a href={project.url} className="print:no-underline">{project.name}</a>
                     ) : (
                       project.name
                     )}
                   </h1>
 
-                  <p className="lead">{project.technologies.join(", ")}</p>
+                  <p className="lead print:text-xs">{project.technologies.join(", ")}</p>
 
                   <div dangerouslySetInnerHTML={{ __html: marked(project.description) }} />
                 </article>
@@ -88,14 +106,14 @@ export default async function Home() {
         </div>
 
         <div>
-          <section className="mb-16 col-span-1">
+          <section className="mb-16 print:mb-8 col-span-1">
             <h1>{data.skills.title}</h1>
 
             <dl>
               {data.skills.data.map(({name, items}) => (
                 <>
                   <dt>{name}</dt>
-                  <dd>{items.join(", ")}</dd>
+                  <dd className="print:p-0">{items.join(", ")}</dd>
                 </>
               ))}
             </dl>

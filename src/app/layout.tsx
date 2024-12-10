@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${robotoMono.className} bg-zinc-900`}
+      className={`${robotoMono.className} bg-zinc-950`}
     >
       <body>{children}</body>
     </html>
