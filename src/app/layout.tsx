@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       className={`${robotoMono.className} bg-zinc-950`}
     >
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-ZN92JZMHZQ" />
     </html>
   );
 }
